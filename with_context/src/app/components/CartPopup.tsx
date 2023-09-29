@@ -1,5 +1,5 @@
 'use client'
-import { type Cart } from '@/api/types'
+import { type Cart } from '../../api/types'
 import { useCart } from './CartContest'
 
 export default function CartPopup({

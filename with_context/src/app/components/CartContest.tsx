@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, createContext } from 'react'
-import { type Cart } from '@/api/types'
+import { type Cart } from '../../api/types'
 
 const useCartState = (initialCart: Cart) => useState<Cart>(initialCart)
 

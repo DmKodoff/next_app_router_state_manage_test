@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 import CartPopup from './CartPopup'
-import { type Cart } from '@/api/types'
+import { type Cart } from '../../api/types'
 import { useCart } from './CartContest'
 
 export default function Header({
